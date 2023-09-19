@@ -21,9 +21,14 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+
         <RouterHead />
       </head>
-      <body lang="en">
+      <body lang="en" class="font-mono">
         <RouterOutlet />
         <ServiceWorkerRegister />
       </body>
