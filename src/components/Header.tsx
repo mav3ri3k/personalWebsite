@@ -8,7 +8,7 @@ export const Header = component$(() => {
           Apurva Mishra
         </div >
         <div class="text-center">
-          Side
+          Test 
         </div>
       </div>
     </div>
