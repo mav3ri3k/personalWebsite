@@ -4,7 +4,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <div class="flex flex-col h-screen">
-      <div class="basis-1/4 text-9xl font-bold">
+      <div class="basis-1/4 justify-self-center text-7xl sm:text-9xl font-bold">
         Apurva Mishra
       </div>
       <div class="bg-tertiary p-2 m-2 outline outline-2 rounded-lg">
