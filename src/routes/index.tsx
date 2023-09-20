@@ -1,27 +1,21 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
+import { Heading } from "~/components/Heading";
+
 export default component$(() => {
   return (
-    <div class="flex flex-col h-screen">
-      <div class="basis-1/4 justify-self-center text-7xl sm:text-9xl font-bold">
-        Apurva Mishra
-      </div>
-      <div class="bg-tertiary p-2 m-2 outline outline-2 rounded-lg">
-        <h1>Hello</h1>
-        <p>
-          Can't wait to see what you build next!
-          <br />
-          Happy coding.
-        </p>
-      </div>
-      <div class="flex flex-row ">
-        <div class="grow bg-tertiary p-2 m-2 outline outline-2 rounded-lg">
-          test
+    <div class="flex flex-col w-screen h-screen">
+      <div class="basis-1 flex">
+        <div class="place-self-center text-black text-7xl sm:text-9xl text-error text-center grow">
+          Apurva Mishra
         </div>
-        <div class="grow bg-tertiary p-2 m-2 outline outline-2 rounded-lg">
-          test
-        </div>
+      </div>
+      <div class="basis-2 grid gap-4 grid-cols-1 sm:grid-cols-2 p-4">
+        <Heading>First</Heading>
+        <Heading>Second</Heading>
+        <Heading>Third</Heading>
+        <Heading>Fourth</Heading>
       </div>
     </div>
   );
