@@ -16,10 +16,10 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export default component$(() => {
   return (
-    <div class="w-screen h-screen bg-slate-900 text-white">
+    <div class="w-screen h-screen bg-surface text-white">
       <div class="flex flex-row p-8">
         <div class="sm:grow"/>
-        <div class="flex flex-col grow max-w-xl">
+        <div class="flex flex-col grow max-w-2xl">
           <Header />
           <Slot />
         </div>
